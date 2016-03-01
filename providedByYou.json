@@ -1,0 +1,174 @@
+{
+  "facingData": [
+    {
+      "towerName": "A",
+      "unitSide": "1",
+      "viewDirection": [
+        "Road View"
+      ]
+    },
+    {
+      "towerName": "A",
+      "unitSide": "2",
+      "viewDirection": [
+        "Garden View",
+        "Road View"
+      ]
+    },
+    {
+      "towerName": "A",
+      "unitSide": "3",
+      "viewDirection": [
+        "Garden View"
+      ]
+    },
+    {
+      "towerName": "B",
+      "unitSide": "2",
+      "viewDirection": [
+        "Garden View"
+      ]
+    },
+    {
+      "towerName": "B",
+      "unitSide": "3",
+      "viewDirection": [
+        "Garden View"
+      ]
+    },
+    {
+      "towerName": "C",
+      "unitSide": "2",
+      "viewDirection": [
+        "Garden View"
+      ]
+    },
+    {
+      "towerName": "C",
+      "unitSide": "3",
+      "viewDirection": [
+        "Garden View"
+      ]
+    },
+    {
+      "towerName": "E",
+      "unitSide": "2",
+      "viewDirection": [
+        "Pool View"
+      ]
+    },
+    {
+      "towerName": "E",
+      "unitSide": "3",
+      "viewDirection": [
+        "Pool View"
+      ]
+    },
+    {
+      "towerName": "F",
+      "unitSide": "2",
+      "viewDirection": [
+        "Pool View"
+      ]
+    },
+    {
+      "towerName": "F",
+      "unitSide": "3",
+      "viewDirection": [
+        "Pool View"
+      ]
+    },
+    {
+      "towerName": "G",
+      "unitSide": "1",
+      "viewDirection": [
+        "Pool View"
+      ]
+    },
+    {
+      "towerName": "G",
+      "unitSide": "4",
+      "viewDirection": [
+        "Pool View"
+      ]
+    },
+    {
+      "towerName": "H",
+      "unitSide": "1",
+      "viewDirection": [
+        "Pool View"
+      ]
+    },
+    {
+      "towerName": "H",
+      "unitSide": "4",
+      "viewDirection": [
+        "Pool View"
+      ]
+    },
+    {
+      "towerName": "I",
+      "unitSide": "1",
+      "viewDirection": [
+        "Pool View"
+      ]
+    },
+    {
+      "towerName": "I",
+      "unitSide": "4",
+      "viewDirection": [
+        "Pool View"
+      ]
+    },
+    {
+      "towerName": "J",
+      "unitSide": "1",
+      "viewDirection": [
+        "Garden View"
+      ]
+    },
+    {
+      "towerName": "J",
+      "unitSide": "4",
+      "viewDirection": [
+        "Garden View"
+      ]
+    },
+    {
+      "towerName": "K",
+      "unitSide": "1",
+      "viewDirection": [
+        "Garden View"
+      ]
+    },
+    {
+      "towerName": "K",
+      "unitSide": "4",
+      "viewDirection": [
+        "Garden View"
+      ]
+    },
+    {
+      "towerName": "L",
+      "unitSide": "1",
+      "viewDirection": [
+        "Garden View",
+        "Road View"
+      ]
+    },
+    {
+      "towerName": "L",
+      "unitSide": "2",
+      "viewDirection": [
+        "Road View"
+      ]
+    },
+    {
+      "towerName": "L",
+      "unitSide": "4",
+      "viewDirection": [
+        "Garden View"
+      ]
+    }
+  ]
+}
