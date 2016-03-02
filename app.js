@@ -38,7 +38,7 @@ var parseProvideByYou = function(list){
             towerName:data.towerName,
             unitSide:data.unitSide
         };
-        resultObject[obj.towerName + '-' + obj.unitSide] = data.viewDirection;
+        resultObject[obj.towerName + '-' + obj.unitSide] = data.viewDirection.join(';');
     });
     return resultObject;
 };
@@ -55,7 +55,7 @@ var finalResult = function(fromApi,providedByYou){
         }else{
             resultList.push({
                 listingId:data.id,
-                viewDirections:[]
+                viewDirections:''
             });
         }
     });
