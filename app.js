@@ -2,7 +2,7 @@ var _config = require('./config');
 var fs = require('fs');
 var providedByYou = require('./providedByYou.json');
 var apiHitJson = require('./apiHit.json');
-var fields = ['listingId', 'viewDirections'];
+var fields = ['ListingId', 'ViewDirections'];
 
 // CSV
 var json2csv = require('json2csv');
@@ -22,7 +22,7 @@ var parseFromApi = function(list){
     list.forEach(function(data){
         var splitResult = data.flatNumber.split('-');
         var obj = {
-            listingId:data.id,
+            ListingId:data.id,
             towerName:splitResult[0],
             unitSide:splitResult[1].length == 3 ?+splitResult[1].substring(1,3):+splitResult[1].substring(2,4)
         };
@@ -49,13 +49,13 @@ var finalResult = function(fromApi,providedByYou){
     fromApi.forEach(function(data){
         if(providedByYou[data.custom]){
             resultList.push({
-                listingId:data.id,
-                viewDirections:providedByYou[data.custom]
+                ListingId:data.id,
+                ViewDirections:providedByYou[data.custom]
             });
         }else{
             resultList.push({
-                listingId:data.id,
-                viewDirections:''
+                ListingId:data.id,
+                ViewDirections:''
             });
         }
     });
@@ -68,7 +68,7 @@ var result = finalResult(fromApi,providedByYou);
 
 json2csv({ data: result, fields: fields }, function(err, csv) {
     if (err) console.log(err);
-    fs.writeFile('file.csv', csv, function(err) {
+    fs.writeFile('file.csv', csv.replace(/\"/g,""), function(err) {
         if (err) throw err;
         console.log('file saved');
     });
